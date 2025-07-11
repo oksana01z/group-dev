@@ -1,2 +1,2 @@
-print("jkn")
+print("Привет")
 print ('hello')
