@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Сколько будет 2 + 2?",
+    "answers": [
+      { "text": "4", "correct": true },
+      { "text": "5", "correct": false }
+    ]
+  },
+  {
+    "question": "Столица Франции?",
+    "answers": [
+      { "text": "Париж", "correct": true },
+      { "text": "Берлин", "correct": false }
+    ]
+  },
+  {
+    "question": "Какой язык программирования используется в этом боте",
+    "answers": [
+      { "text": "питон", "correct": true },
+      { "text": "си плюс", "correct": false }
+    ]
+  },
+  {
+    "question": "Сколько букв в слове Telegram",
+    "answers": [
+      { "text": "8", "correct": true },
+      { "text": "12", "correct": false }
+    ]
+  },
+  {
+    "question": "я не знаю что спросить сколько ног у паука",
+    "answers": [
+      { "text": "6", "correct": true },
+      { "text": "70", "correct": false }
+    ]
+  }
+]
