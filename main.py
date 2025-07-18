@@ -1,8 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+import config
 from quiz import get_question
 from database import get_user_score, add_score
-app = Client("quiz_bot", bot_token="YOUR_BOT_TOKEN", api_id=12345, api_hash="your_api_hash")
+
+
+app = Client("quiz_bot", bot_token=config.BOT_TOKEN, api_id=config.API_ID, api_hash=config.API_HASH)
 
 @app.on_message(filters.command("start"))
 async def start_handler(client, message):
